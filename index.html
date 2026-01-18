@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deaf Biblical Ministry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/nav.css">
+  <style>
+    :root { 
+      --primary: #4a6fa5; 
+      --accent: #d4a373; 
+      --dark: #2d2d2d; 
+      --light: #f8f9fa; 
+      --gray: #6c757d; 
+    } 
+
+    * { margin:0; padding:0; box-sizing:border-box; } 
+
+    body { 
+      font-family: 'Inter', sans-serif; 
+      color: var(--dark); 
+      background: var(--light); 
+      line-height: 1.7; 
+    } 
+
+    h1, h2, h3 { font-family: 'Playfair Display', serif; font-weight: 700; } 
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; } 
+
+    /* Hero */
+    header { 
+      position: relative; 
+      height: 100vh; 
+      min-height: 700px; 
+      background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), 
+                  url('https://easternmirror-assets.s3.ap-south-1.amazonaws.com/images/2024/09/Deaf-Biblical-Ministry.jpg') center/cover no-repeat; 
+      color: white; 
+      display: flex; 
+      align-items: center; 
+      text-align: center; 
+    } 
+
+    .hero-content { 
+      max-width: 800px; 
+      margin: 0 auto; 
+      padding: 2rem; 
+    } 
+
+    .hero h1 { 
+      font-size: 4.5rem; 
+      margin-bottom: 1.2rem; 
+      letter-spacing: -1px; 
+    } 
+
+    .hero p { 
+      font-size: 1.5rem; 
+      margin-bottom: 2.5rem; 
+      opacity: 0.95; 
+    }
+
+    /* Mission Section */
+    .mission { 
+      padding: 4rem 0; 
+      background: white; 
+    }
+
+    .mission h2 { 
+      text-align: center; 
+      color: var(--primary); 
+      margin-bottom: 2rem; 
+      font-size: 2.5rem; 
+    }
+
+    .mission p { 
+      max-width: 800px; 
+      margin: 0 auto 1.5rem; 
+    }
+
+    /* Highlights Section */
+    .highlights { 
+      padding: 4rem 0; 
+      background: var(--light); 
+    }
+
+    .highlights h2 { 
+      text-align: center; 
+      color: var(--primary); 
+      margin-bottom: 2rem; 
+      font-size: 2.5rem; 
+    }
+
+    .stats-table { 
+      margin: 0 auto; 
+      border-collapse: collapse; 
+      width: 80%; 
+    }
+
+    .stats-table th, .stats-table td { 
+      border: 1px solid var(--gray); 
+      padding: 1rem; 
+      text-align: left; 
+    }
+
+    .stats-table th { 
+      background: var(--primary); 
+      color: white; 
+    }
+
+    /* Stories Section */
+    .stories { 
+      padding: 4rem 0; 
+      background: white; 
+    }
+
+    .stories h2 { 
+      text-align: center; 
+      color: var(--primary); 
+      margin-bottom: 2rem; 
+      font-size: 2.5rem; 
+    }
+
+    .story-grid { 
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+      gap: 2rem; 
+    }
+
+    .story-item { 
+      text-align: center; 
+    }
+
+    .story-item img { 
+      width: 100%; 
+      height: auto; 
+      border-radius: 8px; 
+      margin-bottom: 1rem; 
+    }
+
+    /* CTA Section */
+    .cta { 
+      padding: 4rem 0; 
+      background: var(--primary); 
+      color: white; 
+      text-align: center; 
+    }
+
+    .cta h2 { 
+      margin-bottom: 1.5rem; 
+      font-size: 2.5rem; 
+    }
+
+    .cta button { 
+      background: var(--accent); 
+      color: var(--dark); 
+      border: none; 
+      padding: 1rem 2rem; 
+      font-size: 1.2rem; 
+      cursor: pointer; 
+      margin: 0.5rem; 
+      border-radius: 4px; 
+    }
+
+    /* Footer */
+    footer { 
+      padding: 2rem 0; 
+      background: var(--dark); 
+      color: white; 
+      text-align: center; 
+    }
+
+    footer a { 
+      color: var(--accent); 
+      text-decoration: none; 
+      margin: 0 1rem; 
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=768944405279516" alt="DBM Logo" style="height: 50px; width: auto;">
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="programs.html">Programs & Services</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="gallery.html">Gallery & Stories</a>
+        <a href="contact.html">Contact & Support</a>
+      </div>
+      <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="programs.html">Programs & Services</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="gallery.html">Gallery & Stories</a>
+      <a href="contact.html">Contact & Support</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header>
+    <div class="hero-content container">
+      <h1>Deaf Biblical Ministry</h1>
+      <p>Empowering the Deaf Community Since 1987</p>
+    </div>
+  </header>
+
+  <!-- Mission Overview -->
+  <section class="mission">
+    <div class="container">
+      <h2>Our Mission</h2>
+      <p>Deaf Biblical Ministry (DBM), a registered society under the Society Registration Act, 1860, is a National Award-winning NGO recognized for its pioneering work and profound impact on the welfare of the Deaf in Nagaland and beyond. Established in 1987, DBM is the first and remains the only organization of its kind in Nagaland, dedicated to running a School for the Deaf in Dimapur.</p>
+      <p>With a vision to provide quality education, equip the Deaf with essential skills for independent living, and serve as a beacon of empowerment, DBM continues to transform lives and uplift the Deaf community. DBM has received three President of India’s National Awards and is the pioneer school for the Deaf in India and the only Deaf Church in North East India.</p>
+      <p>Currently, DBM provides free education and accommodation to 73 Deaf children and over 200 Deaf Church members.</p>
+    </div>
+  </section>
+
+  <!-- Recent Highlights -->
+  <section class="highlights">
+    <div class="container">
+      <h2>Recent Highlights</h2>
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Key Activities</th>
+            <th>Students Impacted</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2022</td>
+            <td>Free education (Nursery-Cl.10 offline, Cl.11-12 online), computer education for 31 Deaf, skill development, sign language training, Bible translation (Book of Ruth), interpreting services, free medical care for 70 students.</td>
+            <td>70+</td>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>Computer education for 22 Deaf, training for personnel from Manipur and Sikkim, Bible translation (Book of Ephesians), advocacy, employed 4 Deaf teachers.</td>
+            <td>70+</td>
+          </tr>
+          <tr>
+            <td>2024</td>
+            <td>Computer education for 15 Deaf, collaborated with SCERT for Certificate Course on Sign Language, trained personnel from USA/Sikkim, employed 5 Deaf teachers.</td>
+            <td>70+</td>
+          </tr>
+          <tr>
+            <td>2025-2026</td>
+            <td>Ongoing free education and accommodation for 73 children, pre-Christmas celebrations uniting diverse faiths, sponsorship needs for rural Deaf children ($25/month per child).</td>
+            <td>73+ children, 200+ church members</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Featured Stories -->
+  <section class="stories">
+    <div class="container">
+      <h2>Featured Stories</h2>
+      <div class="story-grid">
+        <div class="story-item">
+          <img src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=768944405279516" alt="Deaf children access to education">
+          <h3>Admission Open for Deaf Children</h3>
+          <p>Help Deaf children get access to education. Share and support our mission.</p>
+          <a href="https://www.facebook.com/100064918891282/posts/please-share-and-help-deaf-children-get-access-to-educationadmission-open-for-th/768944421946181/" target="_blank">Learn More</a>
+        </div>
+        <div class="story-item">
+          <img src="https://i.ytimg.com/vi/-LiUditSHz0/maxresdefault.jpg" alt="School for the Deaf in Dimapur">
+          <h3>School for the Deaf in Dimapur</h3>
+          <p>Explore our school and activities in this video overview.</p>
+          <a href="https://www.youtube.com/watch?v=-LiUditSHz0" target="_blank">Watch Video</a>
+        </div>
+        <div class="story-item">
+          <img src="https://easternmirror-assets.s3.ap-south-1.amazonaws.com/images/2024/09/Deaf-Biblical-Ministry.jpg" alt="Deaf Biblical Ministry building">
+          <h3>The History of Sign Language in Nagaland</h3>
+          <p>Read about our role in promoting sign language and Deaf education.</p>
+          <a href="https://www.easternmirrornagaland.com/the-history-of-sign-language-in-nagaland" target="_blank">Read Article</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <div class="container">
+      <h2>Join Us in Empowering the Deaf Community</h2>
+      <button onclick="window.location.href='contact.html'">Donate Now</button>
+      <button onclick="window.location.href='contact.html'">Contact Us</button>
+      <button onclick="window.location.href='programs.html'">Learn Sign Language</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Deaf Biblical Ministry. All rights reserved.</p>
+      <a href="https://www.facebook.com/p/Deaf-Biblical-Ministry-100064918891282" target="_blank">Facebook</a>
+      <a href="https://www.youtube.com/watch?v=-LiUditSHz0" target="_blank">YouTube</a>
+      <a href="https://globalhopeindia.org/empowering-deaf-individuals-through-a-physical-mental-and-spiritual-approach" target="_blank">Global Hope India</a>
+    </div>
+  </footer>
+
+  <!-- Nav JS -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => { 
+
+      const nav = document.querySelector('nav'); 
+      const hamburger = document.querySelector('.hamburger'); 
+      const mobileMenu = document.querySelector('.mobile-menu'); 
+
+      /* Scroll effect (safe for all pages) */ 
+      window.addEventListener('scroll', () => { 
+        if (nav) { 
+          nav.classList.toggle('scrolled', window.scrollY > 100); 
+        } 
+      }); 
+
+      /* Mobile menu toggle */ 
+      if (hamburger && mobileMenu) { 
+        hamburger.addEventListener('click', () => { 
+          mobileMenu.classList.toggle('open'); 
+        }); 
+
+        mobileMenu.querySelectorAll('a').forEach(link => { 
+          link.addEventListener('click', () => { 
+            mobileMenu.classList.remove('open'); 
+          }); 
+        }); 
+      } 
+
+    }); 
+  </script>
+
+</body>
+</html>
